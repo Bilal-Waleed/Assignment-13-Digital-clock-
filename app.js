@@ -7,7 +7,7 @@ function showTime() {
 
     if(h > 12) {
         h = h - 12;
-        session = "pM";
+        session = "PM";
     }
 
     if (h < 10) {
