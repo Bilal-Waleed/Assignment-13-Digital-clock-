@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #7A4988, #AF69EF);
+    font-family: 'Arial';
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.clock { 
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+    border: 2px solid rgba(236, 236, 236, 0.3);
+    background-color: rgb(206, 206, 206); 
+}
+
+.clock h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    letter-spacing: 2px;
+}
+
+.clock h2 {
+    margin: 10px 10px;
+    font-size: 20px;
+    color: #4a4949;
+    font-weight: 400;
+}
+
+.session {
+    font-size: 25px;
+    vertical-align: super;
+}
+
+.clock:hover {
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
